@@ -1,0 +1,86 @@
+body{
+    background-color:rgb(209, 230, 201);
+}
+ul{
+    list-style: none;
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    background-color:darkblue;
+    gap: 100px;
+    height: 30px;
+    font-size: 25px;
+}
+.menu a{
+    color: salmon;
+}
+.menu a:hover{
+    color: aliceblue;
+}
+.menu li{
+    position: relative;
+}
+.container{
+    background-color: darkblue;
+    width: 100%;
+    height: 150px;
+    color: salmon;
+}
+.logo img{
+    width: 100px;
+    height: 120px;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.header-content{
+    padding-left: 9%;
+    align-items: flex-start;
+    margin-top: -130px;
+}
+.header-content h2{
+    font-size: small;
+}
+.college img{
+    height: 300px;
+    width:100%;
+}
+.submenu-content{
+    display: none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    background-color:#fff;
+}
+.submenu:hover .submenu-content{
+    display:block;
+
+}
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    width:100%;
+    align-items: center;
+}
+
+footer .social-media {
+    margin-bottom: 1px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+footer p {
+    margin: 0;
+color: salmon;
+}
+
